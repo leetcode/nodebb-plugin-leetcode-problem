@@ -1,0 +1,26 @@
+{
+  "name": "nodebb-plugin-leetcode-problem",
+  "version": "0.0.1",
+  "description": "nodebb-plugin-leetcode-problem",
+  "main": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xidui/nodebb-plugin-leetcode-problem"
+  },
+  "author": {
+    "name": "xidui",
+    "email": "xidui@leetcode.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xidui/nodebb-plugin-leetcode-problem/issues"
+  },
+  "dependencies": {},
+  "readme": "",
+  "readmeFilename": "README.md",
+  "homepage": "https://github.com/xidui/nodebb-plugin-leetcode-problem",
+  "_id": "nodebb-plugin-leetcode-problem@0.0.1"
+}

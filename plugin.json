@@ -1,0 +1,10 @@
+{
+  "id": "nodebb-plugin-leetcode-problem",
+  "name": "nodebb-plugin-leetcode-problem",
+  "description": "nodebb-plugin-leetcode-problem",
+  "url": "https://github.com/xidui/nodebb-plugin-leetcode-problem",
+  "library": "./index.js",
+  "hooks": [
+    { "hook": "filter:category.create", "method": "createCategory"}
+  ]
+}
