@@ -20,7 +20,6 @@
 	}
 
 	Leetcode.getCategoryTopic = function (data, next) {
-		console.log(data.data);
 		var cids = _.uniq(_.map(data.topics, function (obj, index){
 			return obj.category.cid;
 		}));
