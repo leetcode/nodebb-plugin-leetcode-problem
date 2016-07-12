@@ -5,6 +5,7 @@
   "url": "https://github.com/xidui/nodebb-plugin-leetcode-problem",
   "library": "./index.js",
   "hooks": [
-    { "hook": "filter:category.create", "method": "createCategory"}
+    { "hook": "filter:category.create", "method": "createCategory"},
+    { "hook": "filter:category.topics.get", "method": "getCategoryTopic"}
   ]
 }
