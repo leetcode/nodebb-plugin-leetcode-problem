@@ -4,8 +4,8 @@
 	var _ = module.parent.require('underscore');
 	var	async = module.parent.require('async');
 
-	var _OJ_CATEGORY_ID = 1;
-	var _INTERVIEW_QUESTION_CID = 240;
+	var _OJ_CATEGORY_ID = 8;
+	var _INTERVIEW_QUESTION_CID = 5;
 	var Leetcode = {};
 	Leetcode.createCategory = function (data, next) {
 		if ('_imported_parentCid' in data['data']) {
