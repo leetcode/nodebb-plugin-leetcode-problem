@@ -34,7 +34,7 @@
 				var topic = data.topics[i];
 				topic.showCategoryIconForTopics = false;
 				if (cid_parentCid_map[topic.category.cid].parentCid == _INTERVIEW_QUESTION_CID
-				&& data.data.cid == _INTERVIEW_QUESTION_CID) {
+				&& data.cid == _INTERVIEW_QUESTION_CID) {
 					topic.showCategoryIconForTopics = true;
 					topic.category.parentCid = cid_parentCid_map[topic.category.cid].parentCid;
 					topic.category.image = cid_parentCid_map[topic.category.cid].image;
